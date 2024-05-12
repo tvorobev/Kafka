@@ -1,6 +1,6 @@
 # kafka
 обучение Apache Kafka, структура:
-* docker_with_sasl - необходимое для поднятия в докере кафки в SASL аутентификацией
+* docker_with_sasl - необходимое для поднятия в докере кафки с SASL аутентификацией
 * docker_without_sasl - необходимое для поднятия в докере кафки без аутентификации
 * project_with_sasl - producer, consumer с SASL
 * project_without_sasl - producer, consumer без SASL
