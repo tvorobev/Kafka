@@ -8,6 +8,7 @@
 * project_without_sasl - producer, consumer без SASL
 
 полезные ссылки:
+* [брокеры сообщений](https://habr.com/ru/companies/sberbank/articles/669456/)
 * [Основы технологии Kafka](https://habr.com/ru/companies/slurm/articles/550934/)
 * [Apache Kafka: установка, основы и интеграция](https://www.yourtodo.ru/posts/apache-kafka-ustanovka-osnovyi-i-integratsiya/)
 * [Программа Offset Explorer](https://kafkatool.com/)
