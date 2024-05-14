@@ -1,7 +1,9 @@
 # kafka
 обучение Apache Kafka, структура:
+* docker_kafka_clickhouse - необходимое для поднятия в докере кафки без аутентификации + clickhouse
 * docker_with_sasl - необходимое для поднятия в докере кафки с SASL аутентификацией
 * docker_without_sasl - необходимое для поднятия в докере кафки без аутентификации
+* project_kafka_clickhouse - sql файл с созданием таблицы с движком Kafka, продьюсера используем обычного без SASL
 * project_with_sasl - producer, consumer с SASL
 * project_without_sasl - producer, consumer без SASL
 
