@@ -22,6 +22,6 @@ def send_message(data):
         print(f"Local producer queue is full ({len(producer)} messages awaiting delivery): try again")
 
 if __name__ == '__main__':
-    send_message('{"shk_id": 456,'
-                 '"chrt_id": 789}')
+    send_message('{"GoodsID": 456,'
+                 '"SKUID": 789}')
     producer.flush()

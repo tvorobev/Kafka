@@ -11,5 +11,6 @@
 * [брокеры сообщений](https://habr.com/ru/companies/sberbank/articles/669456/)
 * [Основы технологии Kafka](https://habr.com/ru/companies/slurm/articles/550934/)
 * [Apache Kafka: установка, основы и интеграция](https://www.yourtodo.ru/posts/apache-kafka-ustanovka-osnovyi-i-integratsiya/)
-* [Программа Offset Explorer](https://kafkatool.com/)
+* [Программа Offset Explorer, удобна локально, для одного пользователя](https://kafkatool.com/)
+* [Kafka UI, для прода](https://github.com/provectus/kafka-ui?tab=readme-ov-file#quick-start-demo-run)
 * [расширенный курс по Apache Kafka](https://www.youtube.com/playlist?list=PL8D2P0ruohOC5FXjzqVRaTsglQ57iKCCe)
