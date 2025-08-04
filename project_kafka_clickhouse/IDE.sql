@@ -6,7 +6,7 @@ create table test_kafka
     message String
 )
     engine = Kafka
-    SETTINGS kafka_broker_list = 'localhost:29092'
+    SETTINGS kafka_broker_list = 'kafka:29092'
         , kafka_topic_list = 'test_topic'
         , kafka_group_name = 'my-group3'
         , kafka_format = 'LineAsString'
@@ -57,7 +57,7 @@ create table test_kafka_json
     message String
 )
     engine = Kafka
-    SETTINGS kafka_broker_list = 'localhost:29092'
+    SETTINGS kafka_broker_list = 'kafka:29092'
         , kafka_topic_list = 'test_topic_json'
         , kafka_group_name = 'my-group2'
         , kafka_format = 'JSONAsString'
@@ -105,7 +105,7 @@ create table test_kafka_json_parse
     SKUID    UInt64
 )
     engine = Kafka
-    SETTINGS kafka_broker_list = 'localhost:29092'
+    SETTINGS kafka_broker_list = 'kafka:29092'
         , kafka_topic_list = 'test_topic_json'
         , kafka_group_name = 'my-group4'
         , kafka_format = 'JSONEachRow'

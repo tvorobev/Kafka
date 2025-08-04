@@ -1,7 +1,7 @@
 from confluent_kafka import Producer
 
 config = {
-    'bootstrap.servers': 'localhost:9092',  # адрес Kafka сервера
+    'bootstrap.servers': 'kafka:29092',  # адрес Kafka сервера
     'client.id': 'simple-producer'
 }
 
@@ -22,6 +22,7 @@ def send_message(data):
         print(f"Local producer queue is full ({len(producer)} messages awaiting delivery): try again")
 
 if __name__ == '__main__':
+    print("Y")
     send_message('{"GoodsID": 456,'
                  '"SKUID": 789}')
     producer.flush()
